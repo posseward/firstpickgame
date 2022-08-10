@@ -99,9 +99,9 @@ game_info_df = pd.read_csv(folder + "/bgg_game_info.csv", index_col = 0)
 #read in master game csv
 #ratings_df = pd.read_csv(folder + "\\bgg_all_games.csv", index_col = 0)
 ratings_df = pd.read_csv(folder + "/bgg_all_games.csv", index_col = 0)
-ratings_df = ratings_df.reset_index(drop=True)
+#ratings_df = ratings_df.reset_index(drop=True)
 
-ratings_df = ratings_df.merge(game_info_df[['bgg_id', 'name']], left_on='Bggid', right_on='bgg_id')
+#ratings_df = ratings_df.merge(game_info_df[['bgg_id', 'name']], left_on='Bggid', right_on='bgg_id')
 
 # A reader is still needed but only the rating_scale param is requiered.
 reader = Reader(rating_scale=(1, 10))
