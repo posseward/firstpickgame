@@ -4,6 +4,7 @@ colorama==0.4.5
 debugpy==1.6.2
 decorator==5.1.1
 entrypoints==0.4
+gunicorn==20.1.0
 ipykernel==6.15.1
 ipython==7.34.0
 jedi==0.18.1
@@ -23,6 +24,7 @@ Pygments==2.12.0
 pyparsing==3.0.9
 python-dateutil==2.8.2
 pytz==2022.1
+pywin32==304
 pyzmq==23.2.0
 scikit-surprise==1.1.1
 scipy==1.9.0
